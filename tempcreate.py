@@ -1,5 +1,5 @@
 import os,csv
-import build_base as bb
+import buildbase as bbb
 
 def tempcreate():
  filelist=os.listdir()
@@ -45,9 +45,11 @@ def tempcreate():
    for lines in reader2:
        if(int(lines[1])==0):
            fool=1
-           dump.write(new+" "+lines[0])
+           tempfile=lines[0].replace(" ","777")
+           dump.write(new+" "+tempfile+" 0")
            dump.close()
-           result=bb.start(lines[0])
+           offset="0"
+           result=bbb.start_init(lines[0],offset)
            print(result,"^^^^")
            if(result==1):
                
@@ -72,11 +74,15 @@ def tempcreate():
      w=fptr.readline()
      words=w.split()
      oldf=words[0]
-     dumpedf=words[1]
+     dumpedf=words[1].replace("777"," ")
+     offset=words[-1];
+     print(dumpedf,offset)
      fptr.close()
-     result=bb.start(dumpedf)
+     result=bbb.start_init(dumpedf,offset)
      if(result==1):
             os.remove("dump.txt")
+            
+            updateone(oldf,dumpedf)
             
             
  return
