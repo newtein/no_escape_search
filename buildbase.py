@@ -9,9 +9,9 @@ import sys
 import to_firebase as fire
 import pdfscanoff as pdf
 
-#firebase=firebase.FirebaseApplication('https://no-escape-search.firebaseio.com/')
+firebase=firebase.FirebaseApplication('https://no-escape-search.firebaseio.com/')
 
-firebase=firebase.FirebaseApplication('https://hashtable-df2a9.firebaseio.com/')
+#firebase=firebase.FirebaseApplication('https://hashtable-df2a9.firebaseio.com/')
 
 def csv_to_text(firebase,fname,offset):
     file=open(fname, "r")
