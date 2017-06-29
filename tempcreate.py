@@ -1,16 +1,51 @@
 import os,csv
 import buildbase as bbb
+def directory():
+    #path="abc"
+    l=os.listdir()
+    c=0
+    temp=""
+    dir=[]
+    while  l:
+        try:
+           temp=os.listdir(l[0])
+           #print(temp)
+        except:
+            #print("Open File",l[0],c)
+            dir.append(l[0])
+            c+=1
+            del l[0]
+        else:    
+            for i in range(0,len(temp)):
+              if len(temp[i][0])>0:
+                 if temp[i][0]!=".":   
+                    temp[i]= l[0]+"/"+temp[i]
+              else:
+                del(temp[i])
+           
+            #print("ByeBye ",l[0])    
+            del(l[0])    
+            l.extend(temp)
+    return dir
+    
+
 
 def tempcreate():
- filelist=os.listdir()
- 
+ filelist=directory()
+ print(type(filelist))
  if "dump.txt" not in filelist:
    if "t.csv" in filelist:
      old="t.csv"
      new="tb.csv"
-   else:
+   elif "tb.csv" in filelist:
      old="tb.csv"  
      new="t.csv"
+   else:
+     ftp=open("t.csv","w")
+     ftp.close()
+     old="t.csv"
+     new="tb.csv"
+     
    tempo=open(old,"r")
    tempn=open(new,"w",newline='')
    
@@ -112,6 +147,6 @@ def updateone(filename,f):
    return        
 
 
-tempcreate()        
-        
+
+tempcreate()    
      
