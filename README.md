@@ -22,6 +22,7 @@ Additionally, the performance of the system is increased by multi-threading.
 
 ## •	Publication.
 Successfully published a research paper in 10th IC3-2017 jointly organized by University of Florida, USA and Jaypee Institute of Information Technology, India.     
-## •	Tools/Technologies used: Python (PyQt, Pdfminer) and Firebase.
+## •	Tools/Technologies used: 
+Python (PyQt, Pdfminer) and Firebase.
 
 
