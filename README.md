@@ -1,5 +1,7 @@
 # No-Escape Search
 
+Illustrated Readme with UI Images. 
+
 ## •	Research
 Researched on Windows' Index Search, its functions, advantages and technical drawbacks.
 ## •	Development
