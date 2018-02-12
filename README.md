@@ -1,6 +1,7 @@
 # No-Escape Search (Published)
-#### Design and Implementation of Cloud-Based Directory Content Search Algorithm
-Illustrated Readme with UI Images. 
+## Design and Implementation of Cloud-Based Directory Content Search Algorithm
+
+Illustrative Readme with snapshots of implemented UI. 
 
 ## •	Research
 Researched on Windows' Index Search, its functions, advantages and technical drawbacks.
