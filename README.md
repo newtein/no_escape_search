@@ -14,7 +14,9 @@ second,  slow data retrieval by unindexed window search; and third, inability to
 This algorithm retrieves in O(constant) time using cloud-based 3D hash data-structure.
 
 ### Designed 3D Hash Data-Structure
-![alt text](https://raw.githubusercontent.com/newtein/no_escape_search/master/UI_Images/3dhash2.JPG)
+<center>
+  <img src="https://raw.githubusercontent.com/newtein/no_escape_search/master/UI_Images/3dhash2.JPG" width="500"/>
+</center>
 
 ### Hash stored in hierarchical key-value pairs at Google Firebase cloud
 ![alt text](https://raw.githubusercontent.com/newtein/no_escape_search/master/UI_Images/hash_table_data.JPG)
@@ -35,7 +37,9 @@ Additionally, the performance of the system is increased by multi-threading.
 ![alt text](https://raw.githubusercontent.com/newtein/no_escape_search/master/UI_Images/3.%20Automated_upload_to_firebase.JPG)
 
 ### Flowchart of Automated Directory Scanning Algorithm
-![alt text](https://raw.githubusercontent.com/newtein/no_escape_search/master/UI_Images/Figure-2.jpg | width=48)
+<center>
+  <img src="https://raw.githubusercontent.com/newtein/no_escape_search/master/UI_Images/Figure-2.jpg" width="350"/>
+</center>
 
 ### Flowchart of Retrieval algorithm
 ![alt text](https://raw.githubusercontent.com/newtein/no_escape_search/master/UI_Images/Figure-3.jpg)
