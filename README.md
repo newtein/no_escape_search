@@ -1,4 +1,4 @@
-# No-Escape Search
+# No-Escape Search (Published)
 
 Illustrated Readme with UI Images. 
 
@@ -8,6 +8,12 @@ Researched on Windows' Index Search, its functions, advantages and technical dra
 No-Escape Search that has solved 3 problems of the Windows Search. First,  memory wastage by Windows indexing and its limited nature;
 second,  slow data retrieval by unindexed window search; and third, inability to facilitate the user with location(s) of the input.
 This algorithm retrieves in O(constant) time using cloud-based 3D hash data-structure.
+
+### Designed 3D Hash Data-Structure
+![alt text](https://raw.githubusercontent.com/newtein/no_escape_search/master/UI_Images/3dhash2.JPG)
+
+### Hash stored in hierarchical key-value pairs at Google Firebase cloud
+![alt text](https://raw.githubusercontent.com/newtein/no_escape_search/master/UI_Images/hash_table_data.JPG)
 
 System comprises of 3 major algorithms:  first, automated directory scanning algorithm that involves the use of a ‘wait for single object’
 call from pywin32 events; second, file scanning algorithm; third, retrieval algorithm. Retrieval is a comprehensible combination of user’s
