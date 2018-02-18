@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Josefin+Slab|News+Cycle" rel="stylesheet">
+
+    <link rel="stylesheet" href="/no_escape_search/assets/css/style.css?v=26ebb1c2a53a6237c75d3a2086c16ad59c2f9cdf" media="screen" type="text/css">
+    <link rel="stylesheet" href="/no_escape_search/assets/css/print.css" media="print" type="text/css">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+<!-- Begin Jekyll SEO tag v2.3.0 -->
+<title>No-Escape Search (Published) | no_escape_search</title>
+<meta property="og:title" content="No-Escape Search (Published)" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Research Project Exhaustive cloud-based in-file directory search system. Algorithms include first, automated directory scanning algorithm that involves the use of a ‘wait for single object’ call from pywin32 events; second, file scanning algorithm; third, retrieval algorithm." />
+<meta property="og:description" content="Research Project Exhaustive cloud-based in-file directory search system. Algorithms include first, automated directory scanning algorithm that involves the use of a ‘wait for single object’ call from pywin32 events; second, file scanning algorithm; third, retrieval algorithm." />
+<link rel="canonical" href="https://newtein.github.io/no_escape_search/" />
+<meta property="og:url" content="https://newtein.github.io/no_escape_search/" />
+<meta property="og:site_name" content="no_escape_search" />
+<script type="application/ld+json">
+{"name":"no_escape_search","description":"Research Project Exhaustive cloud-based in-file directory search system. Algorithms include first, automated directory scanning algorithm that involves the use of a ‘wait for single object’ call from pywin32 events; second, file scanning algorithm; third, retrieval algorithm.","author":null,"@type":"WebSite","url":"https://newtein.github.io/no_escape_search/","image":null,"publisher":null,"headline":"No-Escape Search (Published)","dateModified":null,"datePublished":null,"sameAs":null,"mainEntityOfPage":null,"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<style>
+    html, body {
+    max-width: 100%;
+    margin: 0;
+    background: #fdf9f2 !important;
+    font-weight: 400;
+    font-family: Josefin Sans,sans-serif,arial,serif !important;
+    color:#000000;
+      }
+      p{
+        font-weight:400 !important;
+        color:#000000 !important;
+        margin-top:2px;
+      }
+   
+       h2 {
+      width: 100%; 
+     border-bottom: 2px solid #ed5565; 
+     line-height: 1.5em;
+     margin: 5px 0px 10px 0px; 
+      }
+      h3 {
+      width: 100%; 
+     border-bottom: 2px solid #ed5565; 
+     line-height: 1em;
+     margin: 5px 0px 10px 0px; 
+      }
+      
+    </style>
+  </head>
+
+  <body>
+
+           <header style="background-image:None;background-color:#ed5565;">
+      <div class="inner">
+        <a href="https://newtein.github.io/no_escape_search/">
+          <h1 style="color:#ffffff;">NO-Escape Search/h1>
+        </a>
+       <h2 style="color:#ffffff;">  Exhaustive Cloud-based Directory Content Search System  </h2> 
+        
+          <a href="https://github.com/newtein/no_escape_search" class="button"><small>View project on</small> GitHub</a>
+        
+        
+      </div>
+    </header>
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          <h1 id="no-escape-search-published">No-Escape Search (Published)</h1>
+<h2 id="design-and-implementation-of-cloud-based-directory-content-search-algorithm">Design and Implementation of Cloud-Based Directory Content Search Algorithm</h2>
+
+<p>Illustrative Readme with snapshots of implemented UI.</p>
+
+<h2 id="-research">•	Research</h2>
+<p>Researched on Windows’ Index Search, its functions, advantages and technical drawbacks.</p>
+<h2 id="-development">•	Development</h2>
+
+<h4 id="-toolstechnologies-used">•	Tools/Technologies used:</h4>
+<p>Python (PyQt, Pdfminer) and Firebase.</p>
+
+<p>No-Escape Search that has solved 3 problems of the Windows Search. First,  memory wastage by Windows indexing and its limited nature;
+second,  slow data retrieval by unindexed window search; and third, inability to facilitate the user with location(s) of the input.
+This algorithm retrieves in O(constant) time using cloud-based 3D hash data-structure.</p>
+
+<h3 id="designed-3d-hash-data-structure">Designed 3D Hash Data-Structure</h3>
+<center>
+  <img src="https://raw.githubusercontent.com/newtein/no_escape_search/master/UI_Images/3dhash2.JPG" width="500" />
+</center>
+
+<h3 id="hash-stored-in-hierarchical-key-value-pairs-at-google-firebase-cloud">Hash stored in hierarchical key-value pairs at Google Firebase cloud</h3>
+<p><img src="https://raw.githubusercontent.com/newtein/no_escape_search/master/UI_Images/hash_table_data.JPG" alt="alt text" /></p>
+
+<p>System comprises of 3 major algorithms:  first, automated directory scanning algorithm that involves the use of a ‘wait for single object’
+call from pywin32 events; second, file scanning algorithm; third, retrieval algorithm. Retrieval is a comprehensible combination of user’s
+input string &amp; filename(s). Also, unlike windows search, it permits to include location(s) &amp; even multiple occurrences. 
+Additionally, the performance of the system is increased by multi-threading.</p>
+
+<h3 id="target-directory-and-ui-search">Target Directory and UI Search</h3>
+<p><img src="https://raw.githubusercontent.com/newtein/no_escape_search/master/UI_Images/1.%20Target_Dir_N_Python_App_to_Search.JPG" alt="alt text" /></p>
+<h3 id="search-results-for-create">Search Results for create</h3>
+<p><img src="https://raw.githubusercontent.com/newtein/no_escape_search/master/UI_Images/2.%20search_dir_in_3secs_by_giving_multi_positions.JPG" alt="alt text" /></p>
+<h3 id="search-results-for-multiple-terms">Search Results for multiple terms</h3>
+<p><img src="https://raw.githubusercontent.com/newtein/no_escape_search/master/UI_Images/intersection.JPG" alt="alt text" /></p>
+
+<h3 id="automated-upload-to-firebase---cloud-level-indexing">Automated Upload to Firebase - Cloud-level Indexing</h3>
+<p><img src="https://raw.githubusercontent.com/newtein/no_escape_search/master/UI_Images/3.%20Automated_upload_to_firebase.JPG" alt="alt text" /></p>
+
+<h3 id="flowchart-of-automated-directory-scanning-algorithm">Flowchart of Automated Directory Scanning Algorithm</h3>
+<center>
+  <img src="https://raw.githubusercontent.com/newtein/no_escape_search/master/UI_Images/Figure-2.jpg" width="350" />
+</center>
+
+<h3 id="flowchart-of-retrieval-algorithm">Flowchart of Retrieval algorithm</h3>
+<p><img src="https://raw.githubusercontent.com/newtein/no_escape_search/master/UI_Images/Figure-3.jpg" alt="alt text" /></p>
+
+<h2 id="-publication">•	Publication.</h2>
+<p>Successfully published a research paper in 10th IC3-2017 jointly organized by University of Florida, USA and Jaypee Institute of Information Technology, India.</p>
+
+
+        </section>
+
+        <aside id="sidebar">
+        
+           <h2> Research-Project: Algorithms and Problem Solving </h2>
+          <p> Feb, 2017 - May, 2017 </p>
+          <h2> Published </h3>
+          <p> <a href="http://ieeexplore.ieee.org/document/8284288/" target="_blank"> IEEE Xplore Link </a> </p>
+          <p> Tenth International Conference on Contemporary Computing (IC3), 2017 </p>
+          <h2> Advisor </h2>
+          <p> <b> Dr. Sangeeta Mittal </b> <br/>
+            Department of Computer Science and Engineering <br/>
+            Jaypee Institute of Information Technology, Noida, India </p>
+           <h2 id="technologies-used">Tools/Technologies Used</h2>
+          <p> Python (PyQt-5, Pdfminer), Database (Google-Firebase) </p>
+          
+          <h2> Other Collaborators </h2>
+          <p> Abhinav Sharma and Pulkit Jain  </p>
+     
+          
+            <p class="repo-owner"><a href="https://github.com/newtein/no_escape_search">no_escape_search</a> is maintained by <a href="https://github.com/newtein">Harshit Gujral (newtein)</a>.</p>
+          
+
+           <script src="https://use.fontawesome.com/8b09d5ebcd.js"></script>
+    
+          <p> Made with <font color="#ed5565"> <i class="fa fa-heart" aria-hidden="true"></i> </font> by harshit</p>
+          
+
+          
+                  </aside>
+      </div>
+    </div>
+
+    
+  </body>
+</html>
