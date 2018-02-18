@@ -1,7 +1,13 @@
 # No-Escape Search (Published)
 ## Design and Implementation of Cloud-Based Directory Content Search Algorithm
 
-Illustrative Readme with snapshots of implemented UI. 
+### IEEE-Xplore
+Manuscript is available   <a href="http://ieeexplore.ieee.org/document/8284288/" target="_blank">
+          here </a>
+
+### Git-Page
+Published Web-Page is available <a href="https://newtein.github.io/no_escape_search/" target="_blank"> here.</a>
+
 
 ## •	Research
 Researched on Windows' Index Search, its functions, advantages and technical drawbacks.
